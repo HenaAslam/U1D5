@@ -1,0 +1,331 @@
+body {
+    margin: 0;
+
+    background-color: beige;
+
+}
+
+.main {
+
+    margin-left: auto;
+    margin-right: auto;
+    height: 120vh;
+    width: 1500px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    position: relative;
+    overflow: hidden;
+    border: 2px dashed rgb(223, 21, 21);
+    color: beige;
+    background-color: black;
+
+
+    /*background-image: url(./download.png);
+    background-size: 100%;
+    background-position: center;*/
+
+}
+
+.name {
+    position: absolute;
+    top: 50px;
+    right: 160px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 3em;
+    text-align: center;
+    transition: transform 300ms;
+
+}
+
+.name:hover {
+    transform: translateX(40px);
+}
+
+.intro {
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    font-size: 2em;
+    font-family: 'Patrick Hand', cursive;
+    width: 600px;
+    line-height: 1.6;
+    transition: transform 300ms;
+
+}
+
+.intro:hover {
+    transform: translateX(40px);
+}
+
+.form {
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+    font-size: 2em;
+    font-family: 'Patrick Hand', cursive;
+    width: 600px;
+    line-height: 1.6;
+    text-align: center;
+
+
+}
+
+.form input {
+    display: block;
+    margin: 2rem;
+    height: 30px;
+    width: 550px;
+
+}
+
+.form textarea {
+    width: 550px;
+    height: 150px;
+    margin-left: 20px;
+
+}
+
+.form button {
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .7em;
+    margin-left: 50px;
+
+
+}
+
+h2 {
+    font-weight: bold;
+    border-bottom: 1px dashed rgb(123, 123, 88);
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+
+}
+
+.career {
+    position: absolute;
+    bottom: 450px;
+    right: 100px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2em;
+    width: 600px;
+    line-height: 1.4;
+    transition: transform 300ms;
+
+
+
+}
+
+.career:hover {
+    transform: translateX(40px);
+}
+
+.me {
+    position: absolute;
+    bottom: 200px;
+    left: 180px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2em;
+    width: 600px;
+    line-height: 1.6;
+    transition: transform 300ms;
+
+
+
+
+}
+
+.me:hover {
+    transform: translateY(40px)
+}
+
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+.image {
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    width: 380px;
+    height: 500px;
+    border-radius: 60px;
+    overflow: hidden;
+    transition: transform 300ms box-shadow 300ms;
+
+}
+
+.image:hover {
+    transform: scale(1.2);
+    -webkit-box-shadow: 7px 10px 38px 0px rgba(197, 227, 77, 1);
+    -moz-box-shadow: 7px 10px 38px 0px rgba(197, 227, 77, 1);
+    box-shadow: 7px 10px 38px 0px rgba(197, 227, 77, 1);
+}
+
+
+.cv {
+    position: absolute;
+    bottom: 30px;
+    right: 800px;
+    object-fit: cover;
+
+}
+
+.cv button {
+
+
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    background-color: rgb(188, 29, 29);
+
+    transition: transform 300ms;
+
+}
+
+.cv button:hover {
+    background-color: #4CAF50;
+    color: white;
+    transform: scale(1.2);
+
+
+}
+
+
+
+.linkedin {
+    position: absolute;
+    bottom: 70px;
+    left: 0px;
+    font-size: 1.8em;
+    border: 1px solid black;
+    padding: 15px 32px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(188, 29, 29);
+    transform: translateX(0px);
+    transition: transform 300ms;
+
+}
+
+.linkedin:hover {
+    background-color: #4CAF50;
+    transform: translateX(30px)
+}
+
+.github {
+    position: absolute;
+    bottom: 460px;
+    left: 0px;
+    font-size: 1.8em;
+    border: 1px solid black;
+    padding: 15px 32px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(188, 29, 29);
+    transform: translateX(0px);
+    transition: transform 300ms;
+
+}
+
+.github:hover {
+    background-color: #4CAF50;
+    transform: translateX(30px)
+}
+
+.about {
+    position: absolute;
+    bottom: 200px;
+    left: 0px;
+    font-size: 1.8em;
+    border: 1px solid black;
+    padding: 15px 32px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(188, 29, 29);
+    transform: translateX(0px);
+    transition: transform 300ms;
+
+}
+
+.about:hover {
+    background-color: #4CAF50;
+    transform: translateX(30px)
+}
+
+.contact {
+    position: absolute;
+    bottom: 330px;
+    left: 0px;
+    font-size: 1.8em;
+    border: 1px solid black;
+    padding: 15px 32px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(188, 29, 29);
+    transform: translateX(0px);
+    transition: transform 300ms;
+
+
+}
+
+.contact:hover {
+    background-color: #4CAF50;
+    transform: translateX(30px)
+}
+
+.work {
+    position: absolute;
+    right: 00px;
+    top: 0px;
+    font-size: 1.6em;
+    border: 1px solid black;
+    padding: 15px 32px;
+
+    text-align: center;
+    background-color: rgb(188, 29, 29);
+    transform: translateY(0px);
+    transition: transform 300ms;
+
+
+}
+
+.work:hover {
+    background-color: #4CAF50;
+    transform: translateY(30px)
+}
+
+.location {
+    position: absolute;
+    right: 500px;
+    top: 0px;
+    font-size: 1.6em;
+    border: 1px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    background-color: rgb(188, 29, 29);
+}
+
+.location:hover {
+    background-color: #4CAF50;
+    transform: translateY(30px)
+}
